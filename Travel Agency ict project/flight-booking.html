@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flight Booking - Travel Agency</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Flight Booking</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tour-packages.html">Tour Packages</a></li>
+                    <li><a href="#booking-form">Book a Flight</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Flight Booking Form -->
+    <section id="booking-form" class="booking-form">
+        <div class="container">
+            <h2>Book Your Flight</h2>
+            <form action="#">
+                <label for="departure">Departure City:</label>
+                <input type="text" id="departure" name="departure" placeholder="Enter departure city" required>
+
+                <label for="destination">Destination City:</label>
+                <input type="text" id="destination" name="destination" placeholder="Enter destination city" required>
+
+                <label for="date">Travel Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="passengers">Number of Passengers:</label>
+                <input type="number" id="passengers" name="passengers" placeholder="Enter number of passengers" required>
+
+                <button type="submit" class="btn">Book Flight</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>For more information, <a href="index.html#contact">visit our contact page</a>.</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Travel Agency. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

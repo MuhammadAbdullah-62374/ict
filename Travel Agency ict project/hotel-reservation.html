@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hotel Reservations - Travel Agency</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Hotel Reservations</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tour-packages.html">Tour Packages</a></li>
+                    <li><a href="flight-booking.html">Flight Booking</a></li>
+                    <li><a href="#reservation-form">Make a Reservation</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hotel Reservation Form -->
+    <section id="reservation-form" class="reservation-form">
+        <div class="container">
+            <h2>Book Your Stay</h2>
+            <form action="#">
+                <label for="destination">Select Destination:</label>
+                <select id="destination" name="destination">
+                    <option value="thailand">Thailand</option>
+                    <option value="maldives">Maldives</option>
+                    <option value="turkey">Turkey</option>
+                </select>
+
+                <label for="check-in">Check-in Date:</label>
+                <input type="date" id="check-in" name="check-in" required>
+
+                <label for="check-out">Check-out Date:</label>
+                <input type="date" id="check-out" name="check-out" required>
+
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" placeholder="Enter number of guests" required>
+
+                <button type="submit" class="btn">Book Hotel</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>For more information, <a href="index.html#contact">visit our contact page</a>.</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Travel Agency. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
